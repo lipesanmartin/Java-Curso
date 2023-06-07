@@ -1,0 +1,24 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Person;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Quantas pessoas serão digitadas? ");
+		int n = Integer.parseInt(sc.nextLine());
+		Person[] vect = new Person[n];
+		for (int i = 1; i <= n; i++) {
+			System.out.printf("Dados da %da pessoa:", i);
+		}
+		
+		
+		sc.close();
+		
+	}
+
+}
